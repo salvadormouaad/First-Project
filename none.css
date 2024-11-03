@@ -1,0 +1,18 @@
+/* Add CSS styles for mobile devices */
+body {
+    font-size: 16px;
+}
+
+/* Add CSS styles for tablets */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Add CSS styles for desktop screens */
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}

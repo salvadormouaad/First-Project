@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@font-face{
+  font-family: My font;
+  src: url(itc-machine.otf);
+}
+header{
+  font-family: My font;
+  background-color: black; opacity: 0.9;
+  position: fixed;
+  top: 10px;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  text-align: center;
+}
+nav{
+ padding-left: 140px;
+ font-size: 20px;
+ max-width: 100%;
+}
+.img{
+ height: auto;
+ width: 80px;
+ margin-left: 140px;
+ vertical-align: middle;
+}
+nav a{
+ font-size: 20px;
+ color: white;
+ text-decoration: none;
+ border: 2px;
+ margin-left: 150px;
+ transition: .3s;
+ text-align: center;
+}
+
+nav a:hover{
+ text-decoration:underline;
+ 
+}
+h3 , h1 {
+  font-family: My font;
+}
+.container{
+    margin-top: 100px;
+    margin-left: 0px;
+    
+}
+  
+  
+  .photos-container {
+    z-index: -1;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .photos {
+    display: flex;
+    animation: scroll 95s ease infinite;
+  }
+  
+  .photos img {
+    width:270px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  h1{
+    margin-top: 50px;
+    color: #3B3B3B;
+    text-align: left;
+    font-size: 50px;
+    max-width: 150vh;
+    margin-left: 250px;
+
+  }
+  p span{
+    color: #898989;
+  }
+  p{
+    font-size: 20px;
+    color: black;
+    max-width: 130vh;
+    margin-left: 250px;   
+    font-family: 'Raleway', sans-serif;
+    line-height: 34px;
+  }
+ .img1{
+  height: auto;
+   width: 113vh;
+  margin-left: 250px;
+  }
+  hr{
+    margin-left: 250px;
+    width: 113vh;
+   
+  }
+  h3{
+    margin-top: 30px;
+    color: #3B3B3B;
+    text-align: left;
+    font-size: 50px;
+    max-width: 150vh;
+    margin-left: 250px;
+  }
+video{
+  margin-left: 410px;
+  
+}
+.video1{
+ width: 500px;
+}
+.video2{
+  width: 500px;
+}
+.video3{
+  width: 500px;
+}
+.video4{
+  width: 500px;
+}
+.video5{
+  width: 500px;
+}
+@media screen and (max-width: 768px) {
+  header {
+      padding-left: 10px;
+  }
+
+  nav {
+      padding-left: 10px;
+  }
+
+  .img {
+      width: 50px;
+      margin-left: 10px;
+  }
+
+  nav a {
+      margin-left: 20px;
+  }
+
+  h1, h3 {
+      font-size: 30px;
+  }
+
+  p {
+      font-size: 16px;
+      line-height: 24px;
+  }
+
+  .container {
+      margin-top: 30px;
+  }
+
+  .photos img {
+      width: 150px;
+      height: auto;
+      margin-right: 5px;
+  }
+
+  .img1 {
+      width: 100%;
+  }
+
+  .video1, .video2, .video3, .video4, .video5 {
+      width: 100%;
+  }
+}

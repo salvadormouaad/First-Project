@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: My font;
+    src: url(itc-machine.otf);
+}
+body{
+    margin-bottom: 30px;
+    background: url(img/laholawala9owatailabillah.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow:hidden;
+    background-position: center;
+    
+}
+header{
+    font-family: My font;
+     background-color: black; opacity: 0.8;
+     position: fixed;
+     top: 10px;
+     left: 0px;
+     width: 100%;
+     height: 80px;
+     display: flex;
+     text-align: center;
+     
+}
+nav{
+    padding-left: 170px;
+    font-size: 20px;
+    max-width: 100%;
+    
+}
+.img{
+    height: auto;
+    width: 80px;
+    margin-left: 140px;
+    vertical-align: middle;
+}
+nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border: 2px;
+    margin-left: 150px;
+    transition: .3s;
+    text-align: center;
+    
+}
+ 
+nav a:hover{
+    text-decoration:underline;
+    
+}
+h1{
+    width: 500px;
+    font-size: 70px;
+    margin-top: 180px;
+    margin-left: 65px;
+    text-indent: 30px;
+    text-decoration: underline;
+    /* color: #910005; */
+    color: #FFB146;
+    /* text-shadow: 1px 1px 2px #AFA8BA, 0 0 25px #580000, 0 0 5px #580000; */
+    text-shadow: 1px 1px 2px #810065, 0 0 25px #C61857, 0 0 5px #F9F871;
+}
+h1:hover{
+    /* color:#220066; */
+    color: red;
+    color: #910005;
+    /* font-size: 80px; */
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin-left: 60px;
+    line-height: 75px;
+    /* text-decoration: underline; */
+    color:#000066;
+    text-shadow: 0 0 3px #7CB3C5, 0 0 10px #E8D5B5;
+    /* text-shadow: 2px 2px 4px #000000; */
+    /* color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+}
+.first{
+    text-indent: 10px;
+}
+.second{
+    text-indent: 70px;
+}
+.stylish-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #D49E2B;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    /* margin-left: 210px; */
+    margin-top: 640px;
+    margin-left: 680px;
+  }
+  
+  .stylish-button:hover {
+    background-color: #4B3F79;
+  }
+  
+  /* .stylish-button:active {
+    background-color: #1abc9c;
+  } */
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+  @media screen and (max-width: 768px) {
+    nav {
+        padding-left: 40px;
+    }
+
+    nav a {
+        font-size: 16px;
+        margin-left: 40px;
+    }
+
+    h1 {
+        font-size: 4.5vw;
